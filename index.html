@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>!function(e){function t(a){if(i[a])return i[a].exports;var n=i[a]={exports:{},id:a,loaded:!1};return e[a].call(n.exports,n,n.exports,t),n.loaded=!0,n.exports}var i={};return t.m=e,t.c=i,t.p="",t(0)}([function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=window;t["default"]=i.flex=function(e,t){var a=e||100,n=t||1,r=i.document,o=navigator.userAgent,d=o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),l=o.match(/U3\/((\d+|\.){5,})/i),c=l&&parseInt(l[1].split(".").join(""),10)>=80,p=navigator.appVersion.match(/(iphone|ipad|ipod)/gi),s=i.devicePixelRatio||1;p||d&&d[1]>534||c||(s=1);var u=1/s,m=r.querySelector('meta[name="viewport"]');m||(m=r.createElement("meta"),m.setAttribute("name","viewport"),r.head.appendChild(m)),m.setAttribute("content","width=device-width,user-scalable=no,initial-scale="+u+",maximum-scale="+u+",minimum-scale="+u),r.documentElement.style.fontSize=a/2*s*n+"px"},e.exports=t["default"]}]);  flex(100, 1);</script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo clearfix">
+                <div class="logoBox"></div>
+                <p>兰州麻将</p>
+                <p>最地道的兰州玩法</p>
+            </div>
+            <div class="btn">
+                <div class="download"><a href="">立即下载</a></div>
+                <span class="menu"></span>
+            </div>
+        </nav>
+        <div class="ban-box">
+            <div class="swiper-container banner1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href=""></a></div>
+                    <div class="swiper-slide"><a href=""></a></div>
+                    <div class="swiper-slide"><a href=""></a></div>
+                </div>
+                <!--分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+<!--活动公告-->
+<div class="huodong">
+    <ul>
+        <li><a href="http://www.qq.com"><span>活动</span>玩麻将，赢现金！8月20日正式启动！</a><span class="time">03-17</span></li>
+        <li><a href="http://www.qq.com"><span>活动</span>玩麻将，赢现金！8月20日正式启动！</a><span class="time">03-17</span></li>
+        <li><a href="http://www.qq.com"><span>活动</span>玩麻将，赢现金！8月20日正式启动！</a><span class="time">03-17</span></li>
+        <li><a href="http://www.qq.com"><span>活动</span>玩麻将，赢现金！8月20日正式启动！</a><span class="time">03-17</span></li>
+        <li><a href="http://www.qq.com"><span class="gonggao">公告</span>玩麻将，赢现金！8月20日正式启动！</a><span class="time">03-17</span></li>
+        <li><a href="http://www.qq.com">全部活动公告>></a></li>
+    </ul>
+</div>
+    <div class="ban2-box">
+        <div class="swiper-container banner2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ban2">
+                    <a href=""><img src="images/huodong1.png" alt=""><p>新版本公测，四月约定您</p></a>
+                    <a href=""><img src="images/huodong1.png" alt=""><p>新版本公测，四月约定您</p></a>
+                </div>
+                <div class="swiper-slide ban2">
+                    <a href=""><img src="images/huodong1.png" alt=""><p>新版本公测，四月约定您</p></a>
+                    <a href=""><img src="images/huodong1.png" alt=""><p>新版本公测，四月约定您</p></a>
+                </div>
+            </div>
+            <!--分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+<!--赛事活动-->
+<div class="saishi"></div>
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper1 = new Swiper('.banner1', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+        loop:true,
+    })
+    var mySwiper2 = new Swiper('.banner2', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+        loop:true,
+    })
+
+</script>

@@ -1,0 +1,172 @@
+
+.nav{
+    width: 100%;height: 0.9rem;
+    background-color: #1e1e1e;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 0.2rem 0 0.2rem;
+}
+.logo,.btn{
+    width: 50%;height: 100%;
+}
+.logo{
+    box-sizing: border-box;
+    padding-top: 0.09rem;
+}
+.logoBox{
+    float: left;
+    width: 0.72rem;height: 0.72rem;
+    border-radius: 0.1rem;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    margin-right: 0.22rem;
+}
+.logo p:nth-child(2){
+    font-size: 0.32rem;
+    color: #ffffff;
+}
+.logo p:nth-child(3){
+    font-size: 0.18rem;
+    color: #8a8989;
+}
+.btn{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn div:nth-child(1) a{
+    display: block;
+    width: 1.48rem;height: 0.62rem;
+    border-radius: 0.1rem;
+    background-color: #ff6600;
+    text-align: center;
+    line-height: 0.62rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.btn .menu{
+    width: 0.48rem;height: 0.48rem;
+    background-color: aquamarine;
+    margin-left: 0.3rem;
+}
+/*轮播*/
+.ban-box,.ban2-box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.swiper-container {
+    width: 100%;
+    height: 2.46rem;
+}
+.ban-box a{
+    display: inline-block;width: 100%;height: 100%;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+}
+/*活动公告*/
+.huodong{
+    width: 100%;
+    height: 4.26rem;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+}
+.huodong li{
+    height: 0.66rem;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.huodong li:nth-child(5){
+    border-bottom: 0;
+}
+.huodong li:nth-child(6){
+    border-bottom: 0;
+    height: 0.72rem;
+    background-color: #f6f6f6;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+    box-sizing: border-box;
+    border-radius: 0.02rem;
+}
+.huodong li:nth-child(6) a{
+    display: inline-block;
+    font-size: 0.22rem;color: #656c57;
+    width: 100%;text-align: center;
+}
+.huodong li:nth-child(6):hover{
+    background-color: #e7e7e7;
+}
+.huodong a{
+    display: block;
+    width: 5.54rem;height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+    color: #212121;
+    border-radius: 0.1rem;
+}
+.huodong .time{
+    font-size: 0.18rem;color: #707070;
+    margin-right: 0.24rem;
+}
+.huodong li a span{
+    display: inline-block;
+    font-size: 0.2rem;
+    color: #fff;
+    margin: 0 0.12rem 0 .12rem;
+    width: 0.62rem;height: 0.28rem;
+    border-radius: 0.09rem;
+    line-height: 0.28rem;text-align: center;
+    background-color: #6a9f01;
+}
+.huodong .gonggao{
+    background-color: #ff4500;
+}
+.huodong li a:link{
+    color: #212121;
+}
+.huodong li a:visited{
+   color: #6a9f01;
+}
+.huodong li a:hover {
+    background-color: #e7e7e7;
+}
+.huodong li a:active {
+    color: #212121;
+}
+/*banner2*/
+.ban2-box{
+    width: 100%;
+    height: 2.80rem;
+    padding: 0 0.11rem 0.1rem;
+    box-sizing: border-box;
+}
+.ban2{
+    display: flex;
+    justify-content: space-between;
+}
+.ban2-box a{
+    display: block;
+    width: 49%;height: 1.50rem;
+    background-image: url("../images/huodong1.png");
+    background-size: cover;
+}
+.ban2-box p{
+    font-size: 0.2rem;color: #4f4a4a;
+    margin-top: 0.1rem;
+    box-sizing: border-box;
+}
+.ban2-box .swiper-pagination-bullet{
+    background-color: #dcd9d9;
+}
+.ban2-box .swiper-pagination-bullet-active{opacity:1;background:#4f7700}
+.ban2-box .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: -0.08rem;
+}
+/*赛事活动*/
+.saishi{
+
+}
